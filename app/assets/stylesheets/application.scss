@@ -28,6 +28,7 @@
      background-repeat: no-repeat;
      background-size: cover;
      margin-bottom: 50px;
+     margin-top: -20px;
 
      .box-inner {
          background-color: rgba(250, 250, 250, 0.69);
@@ -200,3 +201,8 @@
   .login-help{
     font-size: 12px;
   }
+
+
+html { height: 100%}
+  body { min-height: 100%; display: flex; flex-direction: column;}
+  .content { flex: 1;}
